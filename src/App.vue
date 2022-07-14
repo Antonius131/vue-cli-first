@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <MainTitle />
+    <MainJumbotron />
   </div>
 </template>
 
 <script>
-import MainTitle from './components/MainTitle.vue'
+import MainJumbotron from './components/MainJumbotron.vue'
 
 export default {
   name: 'App',
   components: {
-    MainTitle
-  }
+    MainJumbotron
+}
 }
 </script>
 
